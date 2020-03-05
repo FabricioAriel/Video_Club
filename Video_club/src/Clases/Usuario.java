@@ -2,12 +2,13 @@ package Clases;
 
 import java.beans.Statement;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
-import javax.swing.JOptionPane;
+
 import com.mysql.jdbc.*;
 import com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException;
 
@@ -73,12 +74,7 @@ public class Usuario {
 		    }
 			catch(SQLException ex) {
 				ex.printStackTrace();
-			}
-			
-			
-			
-			
-			
+			}	
 		}
 		public boolean validar() {
 			try {
