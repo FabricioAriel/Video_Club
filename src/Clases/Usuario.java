@@ -2,6 +2,7 @@ package Clases;
 
 import java.beans.Statement;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -73,12 +74,7 @@ public class Usuario {
 		    }
 			catch(SQLException ex) {
 				ex.printStackTrace();
-			}
-			
-			
-			
-			
-			
+			}	
 		}
 		public boolean validar() {
 			try {
