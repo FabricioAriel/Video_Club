@@ -1,5 +1,6 @@
 package Clases;
 
+import java.beans.Statement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -76,6 +77,8 @@ public class Usuario {
 			
 			
 			
+			
+			
 		}
 		public boolean validar() {
 			try {
@@ -117,4 +120,5 @@ public class Usuario {
 			}
 			
 		}
+		//adasMas de lo mismo 
 }
