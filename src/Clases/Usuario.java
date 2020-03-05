@@ -76,6 +76,8 @@ public class Usuario {
 			
 			
 			
+			
+			
 		}
 		public boolean validar() {
 			try {
